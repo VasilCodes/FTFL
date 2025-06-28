@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreeTime:FL</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5faff;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background: #0077cc;
+      color: white;
+      padding: 20px 10px;
+      border-radius: 8px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .task-list {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+    .task {
+      background: white;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+    }
+    .task h3 {
+      margin: 0 0 10px;
+      color: #0077cc;
+    }
+    .task p {
+      margin: 0;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .redirect-button {
+      display: block;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .redirect-button:hover {
+      background-color: #005fa3;
+    }
+
+    .paragraph-ending {
+        border: 1px solid #ddd;
+        color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FreeTime:FL | Normal Tasks 😃</h1>
+    <p>Choose a task which can grant you time! Tasks get updated every day! Here you can find tasks that give from 5 - 60 minutes.</p>
+  </header>
+
+  <div class="task-list">
+    <center><p>No tasks remain!😃</p></center>
+    <!--
+    <div class="task"> 
+      <h3>Bring me some water.</h3>
+      <p>⏱ 10 minutes award</p>
+    </div>
+    <div class="task">
+      <h3>Clean your workspace.</h3>
+      <p>⏱ 20 minutes award</p>
+    </div>
+    <div class="task">
+      <h3>Play a game which you progress an account.</h3>
+      <p>⏱ 30 minute award</p>
+    </div>
+    <div class="task">
+      <h3>Go outside.</h3>
+      <p>⏱ 1 hour award</p>
+    </div> 
+    -->
+  </div>
+  <button class="redirect-button" onclick="window.location.href='tgs_login.html'">Time Gaining Tasks</button>
+  <center>
+  <p class="paragraph-ending">Those tasks can give you more time (from 2 hours to 2 days).</p>
+  </center>
+  <footer>
+    &copy; 2025 FreeTime:FL. All rights reserved.
+  </footer>
+</body>
+</html>
